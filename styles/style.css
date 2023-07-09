@@ -9,10 +9,11 @@
 color: #FFF;
 text-align: right;
 background-image: url('../images/banner/banner3.png');
-justify-content: center;
-width: 1600px;
-height: 810px;
-
+background-size: cover;
+height: 100vh;
+background-position: center;
+width: 100%;
+background-repeat: no-repeat;
 
 }
 .header-title{
@@ -38,4 +39,76 @@ height: 810px;
     background: #FFF;
     border: 0;
 
+}
+
+/* main section styles */
+
+.failure-previous{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF;
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-left: 15px;
+    
+}
+.information-title{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+padding-bottom: 25px;
+}
+
+.information-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+.list-item{
+
+color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.information-text{
+    padding-top: 80px;
+}
+.prject-name{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    color: #151414;
+    font-size: 46px;
+    font-weight: 700;
+    padding-left: 80px;
+}
+
+.MyPlans-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 130px;
+}
+.myplan-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.myplan-discription{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.plan-photo{
+    text-align: center;
+    padding-left: 35px;
 }
